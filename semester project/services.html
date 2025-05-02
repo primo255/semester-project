@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - linkup HealthCare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>LINK<span>UP</span> HEALTHCARE</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="active"><a href="services.html">Services</a></li>
+                    <li><a href="booking.html">Book Appointment</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#" class="login-btn">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="services-hero">
+        <div class="container">
+            <h2>Our Healthcare Services</h2>
+            <p>Comprehensive medical care tailored to your needs</p>
+        </div>
+    </section>
+
+    <section class="services-list">
+        <div class="container">
+            <div class="service-card">
+                <i class="fas fa-heartbeat"></i>
+                <h3>General Medicine</h3>
+                <p>Comprehensive care for adults including preventive care, diagnosis and treatment of acute and chronic illnesses.</p>
+                <a href="booking.html" class="btn">Book Now</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-baby"></i>
+                <h3>Pediatrics</h3>
+                <p>Specialized medical care for infants, children and adolescents up to age 18.</p>
+                <a href="booking.html" class="btn">Book Now</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-female"></i>
+                <h3>Gynecology</h3>
+                <p>Women's health services including reproductive health, pregnancy care and menopause management.</p>
+                <a href="booking.html" class="btn">Book Now</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-teeth"></i>
+                <h3>Dental Care</h3>
+                <p>Complete oral health services including cleanings, fillings, extractions and cosmetic dentistry.</p>
+                <a href="booking.html" class="btn">Book Now</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-eye"></i>
+                <h3>Optometry</h3>
+                <p>Eye exams, vision testing, and treatment for eye diseases and conditions.</p>
+                <a href="booking.html" class="btn">Book Now</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-brain"></i>
+                <h3>Mental Health</h3>
+                <p>Counseling and psychiatric services for depression, anxiety, stress and other mental health concerns.</p>
+                <a href="booking.html" class="btn">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="virtual-care">
+        <div class="container">
+            <div class="virtual-content">
+                <h2>Virtual Consultations</h2>
+                <p>Can't visit in person? Connect with our doctors through secure video consultations from the comfort of your home or office.</p>
+                <ul>
+                    <li><i class="fas fa-check"></i> Same quality care as in-person visits</li>
+                    <li><i class="fas fa-check"></i> Secure and confidential</li>
+                    <li><i class="fas fa-check"></i> Prescriptions sent directly to your pharmacy</li>
+                </ul>
+                <a href="booking.html" class="btn">Schedule Virtual Visit</a>
+            </div>
+            <div class="virtual-image">
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Virtual Consultation">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="booking.html">Book Appointment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> kihumuro road, Mbarara, Uganda</p>
+                    <p><i class="fas fa-phone"></i> +256 123 456 789</p>
+                    <p><i class="fas fa-envelope"></i> info@linkup healthcare.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 linkup HealthCare. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login to Your Account</h2>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <p>Don't have an account? <a href="#" class="register-link">Register here</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

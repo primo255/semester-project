@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - linkup HealthCare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>LINKUP<span>HEALTH</span> CARE</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li class="active"><a href="booking.html">Book Appointment</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#" class="login-btn">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="booking-hero">
+        <div class="container">
+            <h2>Book Your Appointment</h2>
+            <p>Schedule your visit with our healthcare professionals</p>
+        </div>
+    </section>
+
+    <section class="booking-steps">
+        <div class="container">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Select Service</h3>
+                <p>Choose from our range of healthcare services</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Choose Doctor</h3>
+                <p>Select your preferred healthcare provider</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Pick Date & Time</h3>
+                <p>Select a convenient time slot from available options</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Confirm Booking</h3>
+                <p>Review and confirm your appointment details</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking-form-section">
+        <div class="container">
+            <div class="booking-form-container">
+                <h3>Schedule Your Appointment</h3>
+                <form class="booking-form">
+                    <div class="form-group">
+                        <label for="service">Select Service</label>
+                        <select id="service" name="service" required>
+                            <option value="">-- Select a Service --</option>
+                            <option value="general">General Medicine</option>
+                            <option value="pediatrics">Pediatrics</option>
+                            <option value="gynecology">Gynecology</option>
+                            <option value="dental">Dental Care</option>
+                            <option value="optometry">Optometry</option>
+                            <option value="mental">Mental Health</option>
+                            <option value="virtual">Virtual Consultation</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="doctor">Select Doctor</label>
+                        <select id="doctor" name="doctor" required>
+                            <option value="">-- Select a Doctor --</option>
+                            <option value="dr1">Dr. James Mugisha (General Medicine)</option>
+                            <option value="dr2">Dr. Sarah Kintu (Pediatrics)</option>
+                            <option value="dr3">Dr. Amina Nalwoga (Gynecology)</option>
+                            <option value="dr4">Dr. Robert Ssemakula (Dental)</option>
+                            <option value="dr5">Dr. Grace Nakimera (Optometry)</option>
+                            <option value="dr6">Dr. Mark Okello (Mental Health)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Appointment Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Preferred Time</label>
+                        <select id="time" name="time" required>
+                            <option value="">-- Select Time --</option>
+                            <option value="9:00">9:00 AM</option>
+                            <option value="10:00">10:00 AM</option>
+                            <option value="11:00">11:00 AM</option>
+                            <option value="12:00">12:00 PM</option>
+                            <option value="13:00">1:00 PM</option>
+                            <option value="14:00">2:00 PM</option>
+                            <option value="15:00">3:00 PM</option>
+                            <option value="16:00">4:00 PM</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="notes">Additional Notes (Optional)</label>
+                        <textarea id="notes" name="notes" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Book Appointment</button>
+                </form>
+            </div>
+            <div class="booking-info">
+                <h3>Appointment Information</h3>
+                <div class="info-box">
+                    <i class="fas fa-info-circle"></i>
+                    <h4>Before Your Visit</h4>
+                    <ul>
+                        <li>Arrive 15 minutes early for paperwork</li>
+                        <li>Bring your insurance card if applicable</li>
+                        <li>Bring a list of current medications</li>
+                    </ul>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-phone-alt"></i>
+                    <h4>Need to Reschedule?</h4>
+                    <p>Please call us at least 24 hours in advance if you need to cancel or reschedule your appointment.</p>
+                    <p><strong>Phone:</strong> +256 740575568</p>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Our Location</h4>
+                    <p>kihumuro road<br>Mbarara, Uganda</p>
+                    <a href="#" class="btn directions-btn">Get Directions</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="booking.html">Book Appointment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i>kihumuro road, Mbarara, Uganda</p>
+                    <p><i class="fas fa-phone"></i> +256 123 456 789</p>
+                    <p><i class="fas fa-envelope"></i> info@linkuphealthcare.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 linkup HealthCare. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login to Your Account</h2>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <p>Don't have an account? <a href="#" class="register-link">Register here</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
